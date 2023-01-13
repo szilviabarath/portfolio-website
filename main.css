@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+:root {
+  --beige: #f5eee6;
+  --white: #d7c1b0;
+  --yellow: #f9dd94;
+  --purple: #7e435f;
+  --blue: #527288;
+}
+
+.main-font {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: local('Tusker Grotesk 3500 Medium'), local('Tusker-Grotesk-3500-Medium'),
+        url('TuskerGrotesk-3500Medium.woff2') format('woff2'),
+        url('TuskerGrotesk-3500Medium.woff') format('woff'),
+        url('TuskerGrotesk-3500Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+body {
+    background-color: #000;
+}
+div .header_img {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Tusker Grotesk';
+    color: white;
+    font-size: 5em;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+  font-family: 'Tusker Grotesk';
+  color: beige;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.hello {
+  font-family: 'Tusker Grotesk';
+  margin-top: -80px;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+#and {
+    color: beige;
+}
+
+.navbar {
+  z-index:1000;
+  color: beige;
+}
+#navbar-brand p {
+  font-family: 'Segoe Script', cursive;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+#navbar-brand p:hover {
+  color: yellow;
+}
+
+#navbar {
+    position: fixed; /* Make it stick/fixed */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: black;
+    height: 3em;
+  }
+
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+
+  }
+
+.container-fluid  {
+    font-family: 'Tusker Grotesk';
+    color: white;
+  }
+
+  #navbar a:hover {
+    color: white;
+    font-family: 'Segoe Script', cursive;
+  }
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.half{
+  display: flex;
+  flex: 1 !important;
+}
+
+.right {
+  margin-left: 500px;
+  padding-top: 140px;
+  color: white;
+
+}
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+    white-space: nowrap; /* Keeps the content on a single line */
+    /*margin: 0 auto;  Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    font-size: 2em;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 25% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #5c9cab; }
+  }
+  .rotate-hor-center:hover {
+    -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  }
+  @-webkit-keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+  @keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.title {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 78px;
+  margin-top: 50px;
+  color: beige;
+
+}
+
+.one {
+  flex: 1;
+}
+
+.about-text {
+  padding-top: 180px;
+  color: white;
+  text-align: justify;
+  padding-right: 60px;
+}
+
+.about-photo {
+  height: 200px;
+  max-width: 200px;
+  margin-right: 100px;
+  margin-top: 170px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.about-photo:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.underline {
+  display: inline;
+  border-bottom: 3px solid yellow;
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+button:focus {
+  display: inline;
+  background-color: #000;
+  border-bottom: 3px solid white;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  outline: none;
+}
+
+.dark {
+  background-color: #000;
+  color: white;
+  border-color: beige;
+  border-radius: 1px solid;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  text-align: justify;
+}
+
+.content {
+ margin-top: 100px;
+ margin-left: 70px;
+ color: purple;
+
+}
+.tagcloud {
+  font-size: 28px;
+  font-weight: 750;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.tagcloud--item:hover {
+  color: #36454F;
+}
+
+.competencies {
+  margin-top: 100px;
+  margin-left: 78px;
+  color: white;
+}
+
+a {
+  color: beige;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("https://media.istockphoto.com/id/1337260312/photo/floral-seamless-pattern-multicolored-flowers-peonies-on-a-black-background.jpg?b=1&s=170667a&w=0&k=20&c=fw-XCmd2YPHzxObmOs6-YLBCmqe6V26AOisMtgVbqmc=");
+}
+
+.split-screen {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #000;
+  opacity: 0.8;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.split-screen__half {
+  flex: 1;
+  margin-top: 90px;
+  margin-bottom: 60px;
+
+}
+.leftside {
+  margin-top: 115px;
+  line-height: 3em;
+}
+
+.leftside p:hover {
+  font-weight: bold;
+
+}
+ul {
+  list-style-type: none;
+  line-height: 3em;
+  align-items: left;
+  text-align: left;
+  margin-left: 25px;
+}
+
+svg:hover {
+  color: purple;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  text-align: justify;
+}
+
+h5{
+  font-family: 'Space Grotesk'; sans-serif;
+
+}
+
+
