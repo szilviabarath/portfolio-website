@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 :root {
   --beige: #f5eee6;
@@ -69,7 +70,7 @@ h2 {
   color: beige;
 }
 #navbar-brand p {
-  font-family: 'Segoe Script', cursive;
+  font-family: 'Kaushan Script', cursive;
   margin-top: 1em;
   font-size: 1em;
 }
@@ -105,8 +106,7 @@ h2 {
 
   #navbar a:hover {
     color: white;
-    font-family: 'Segoe Script', cursive;
-  }
+    font-family: 'Kaushan Script', cursive;  }
 .header-container {
   display: flex;
   flex-direction: column;
