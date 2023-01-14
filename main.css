@@ -429,3 +429,57 @@ button {
   justify-items: center;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    position: unset;
+
+    margin-left: auto !important;
+    margin-right: auto;
+    font-size: 3em;
+  }
+
+  h1.half.right {
+    font-size: 2em;
+    padding-top: 0px;
+    max-width: fit-content;
+    margin-top: 50px !important;
+  }
+
+  h1.rotate-hor-center {
+    display: flex;
+    gap: 12px;
+    margin-top: 100px !important;
+  }
+
+  div .header_img {
+    display: none;
+  }
+
+  .header-container {
+    background-image: url("https://media.istockphoto.com/id/1337260312/photo/floral-seamless-pattern-multicolored-flowers-peonies-on-a-black-background.jpg?b=1&s=170667a&w=0&k=20&c=fw-XCmd2YPHzxObmOs6-YLBCmqe6V26AOisMtgVbqmc=");
+    background-size: cover;
+  }
+
+/*  .about-container {
+    flex-wrap: wrap;
+    padding-top: 70px;
+  }
+
+  .about-container h2.title {
+    width: 100%;
+    order: 1;
+  }
+
+  img.about-photo {
+    margin-right: 0;
+    margin-top: 50px;
+    order: 2;
+  }
+
+  p.about-text {
+    width: 100%;
+    padding-top: 50px;
+
+  }*/
+}
