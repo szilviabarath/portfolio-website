@@ -213,6 +213,7 @@ h2 {
 
 .underline {
   display: inline;
+  border: none;
   border-bottom: 3px solid yellow;
   background-color: #000;
   margin: 0px;
@@ -223,6 +224,7 @@ h2 {
 button:focus {
   display: inline;
   background-color: #000;
+  border: none;
   border-bottom: 3px solid white;
   margin: 0px;
   padding: 0px;
