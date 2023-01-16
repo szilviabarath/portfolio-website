@@ -381,6 +381,10 @@ h3 {
   }
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 #go-to-top {
   position: fixed;
   bottom: 20px;
