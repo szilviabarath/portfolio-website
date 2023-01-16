@@ -239,9 +239,9 @@ button:focus {
   border-radius: 1px solid;
 }
 .container {
-  height: 100vh;
   display: flex;
   text-align: justify;
+  padding: 50px 0;
 }
 
 .content {
@@ -424,7 +424,6 @@ textarea, input {
   margin: 10px;
   text-align: justify;
 }
-
 button {
   display: flex;
   flex-direction: column;
@@ -501,5 +500,34 @@ h2.title {
   .competencies, .content, .tagcloud {
     margin-top: 0;
     margin-left:0  !important;
+  }
+
+  .card-group > .card {
+    width: 100% !important;
+    min-width: 100%;
+  }
+form label {
+  width: 100%;
+  display: block !important;
+}
+
+.social li {
+  width: 100%;
+  max-width: fit-content;
+  margin: 0 auto;
+  display: block;
+}
+
+.social {
+  padding: 0;
+  margin-left: 0;
+}
+}
+
+
+@media (max-width: 576px) {
+  #navbar {
+    top: 0;
+    left: 0;
   }
 }
