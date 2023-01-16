@@ -525,6 +525,11 @@ form label {
 }
 }
 
+@media only screen and (min-width: 767px) {
+  #navbar button {
+    display: none; /* button is invisible on screens wider than 767px */
+  }
+}
 
 @media (max-width: 576px) {
   #navbar {
@@ -539,6 +544,7 @@ form label {
     padding: 0;
   }
 
+
 #navbar button {
   position: absolute !important;
   background-color: transparent;
@@ -547,6 +553,7 @@ form label {
   cursor: pointer;
   border: none;
 }
+
 
 #navbar img {
   filter: invert(97%) sepia(2%) saturate(73%) hue-rotate(268deg) brightness(119%) contrast(100%);
