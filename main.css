@@ -214,7 +214,7 @@ h2 {
 .underline {
   display: inline;
   border: none;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid purple;
   background-color: #000;
   margin: 0px;
   padding: 0px;
@@ -223,7 +223,7 @@ h2 {
 
 button:focus {
   display: inline;
-  background-color: #000;
+  background-color: #fff;
   border: none;
   border-bottom: 3px solid white;
   margin: 0px;
@@ -387,7 +387,7 @@ h3 {
   right: 20px;
   z-index: 999;
   color: black;
-  background-color: beige;
+  background-color: purple;
   padding: 10px;
   border-radius: 50%;
   display: none;
@@ -530,4 +530,49 @@ form label {
     top: 0;
     left: 0;
   }
+
+  #navbar .logo {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    padding: 0;
+  }
+
+#navbar button {
+  position: absolute !important;
+  background-color: transparent;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#navbar img {
+  filter: invert(97%) sepia(2%) saturate(73%) hue-rotate(268deg) brightness(119%) contrast(100%);
+}
+
+.navigation {
+  display: none;
+  position: fixed;
+  top: 48px;
+  right: 0px;
+  background-color: purple;
+  padding: 20px;
+}
+
+.navigation.active {
+  display: block;
+}
+
+#navbar ul {
+  line-height: 1em;
+}
+
+h1.half.right {
+  font-size: 1em;
+}
+
+.about-text {
+  padding-right: 0px;
+}
 }

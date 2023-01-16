@@ -31,3 +31,7 @@ const myTags = [
 ];
 
 var tagCloud = TagCloud('.content', myTags);
+
+function nav(){
+  document.querySelector("#navbarSupportedContent").classList.toggle("active")
+}
