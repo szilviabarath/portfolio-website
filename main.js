@@ -27,7 +27,7 @@ const myTags = [
   'JavaScript', 'CSS', 'HTML',
   'Python', 'git',
   'Bootstrap', 'Node.js', 'Tailwind CSS',
-   'MySQL', 'jQuery', 'Photoshop', 'Blender',
+   'MySQL', 'VueJS', 'Photoshop', 'Blender',
 ];
 
 var tagCloud = TagCloud('.content', myTags);
